@@ -121,6 +121,14 @@ mouse = lp:GetMouse()
 c = lp.Character
 human = c.Humanoid
 critTime = .27
+------
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "made By nolol#9348", Text = "hi SKIDS (unless ur me)"})
+                                    				                
+pos = 0
+pos2 = 45
+pos3 = 90
+pos4 = 115
+
 ----
 local mouse = game.Players.LocalPlayer:GetMouse()
 mouse.KeyDown:Connect(function(k) 
